@@ -37,9 +37,10 @@ When you copy tracking data, it is formatted for direct pasting into Nuke as a *
 - **Export Plane Track**  
     Copies the 4 corner positions of the selected **Plane Track**.
 
->  **Note:**  
-When using object tracking with multiple objects, the export will copy data from the active object.
-Blender's lens distortion correction is not applied to the coordinate transformation of 2D tracking data.
+**Note:**  
+ - Ensure that the footage starts on the same frame in both Nuke and Blender.
+ - If the clip contains multiple tracking objects, the markers from the active object will be copied.
+ - Blender's lens distortion correction is not applied to the coordinate transformation of 2D tracking data.
 
 ---
 
@@ -54,5 +55,4 @@ Allows lens distortion parameter exchange between Blender and Nuke’s default d
 　　Select the LensDistortion Node in Nuke and copy it to the clipboard.
     Pastes lens distortion parameters from the clipboard into Blender. If the lens distortion model is not set to "Nuke" in Blender, it will be automatically switched.
 
----
 
