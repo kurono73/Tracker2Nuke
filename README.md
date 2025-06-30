@@ -39,6 +39,7 @@ When you copy tracking data, it is formatted for direct pasting into Nuke as a *
 
 **Note:**  
  - Ensure that the footage starts on the same frame in both Nuke and Blender.
+ - After pasting into Nuke, you need to update the **reference frame** value to use the data properly. `Tracker Node > Transform Tab > reference Frame`.
  - If the clip contains multiple tracking objects, the markers from the active object will be copied.
  - Blender's lens distortion correction is not applied to the coordinate transformation of 2D tracking data.
 
