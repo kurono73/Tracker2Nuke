@@ -57,3 +57,7 @@ Allows lens distortion parameter exchange between Blender and Nuke’s default d
     Pastes lens distortion parameters from the clipboard into Blender. If the lens distortion model is not set to "Nuke" in Blender, it will be automatically switched.
 
 
+---
+
+Original Code
+https://gist.github.com/masahiroteraoka/231d524a90dc6033990131fc8fc7d9b3
