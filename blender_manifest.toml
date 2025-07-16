@@ -1,6 +1,6 @@
 schema_version = "1.0.0"
 id = "Tracker2Nuke"
-version = "1.0.1"
+version = "1.0.2"
 name = "Tracker to Nuke"
 tagline = "Instantly export Blender tracking data to a Nuke Tracker node"
 maintainer = "Naoki Korematsu" 
