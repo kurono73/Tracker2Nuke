@@ -8,8 +8,8 @@ NUKE_LENS_DISTORTION_TPL = """set cut_paste_input [stack 0]
 version 14.0 v2
 push $cut_paste_input
 LensDistortion2 {{
- distortionDenominator0 {{{k1}}}
- distortionDenominator1 {{{k2}}}
+ distortionDenominator0 {k1}
+ distortionDenominator1 {k2}
  output Undistort
  name {node_name}
  selected true
